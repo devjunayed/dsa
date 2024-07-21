@@ -1,1 +1,1 @@
-Enter the value of t: Enter the value of v: s : 60
+Summation is 9
