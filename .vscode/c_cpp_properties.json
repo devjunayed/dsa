@@ -3,7 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/computer_programming/part_1/chapter_2",
+                "${workspaceFolder}/computer_programming/part_1/chapter_6"
             ],
             "defines": [
                 "_DEBUG",
