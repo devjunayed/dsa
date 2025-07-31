@@ -197,10 +197,10 @@ int main()
     // test(t, pattern6);
     // test(t, pattern7);
     // test(t, pattern8);
-    // test(t, pattern9);
+    test(t, pattern9);
     // test(t, pattern10);
     // test(t, pattern11);
-    test(t, pattern12);
+    // test(t, pattern12);
 
     return 0;
 }
