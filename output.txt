@@ -1,24 +1,23 @@
 Test Case 1: For value 2
 
-1     1 
-1 2 2 1 
+A 
+B B 
 
-Test Case 2: For value 6
+Test Case 2: For value 5
 
-1                     1 
-1 2                 2 1 
-1 2 3             3 2 1 
-1 2 3 4         4 3 2 1 
-1 2 3 4 5     5 4 3 2 1 
-1 2 3 4 5 6 6 5 4 3 2 1 
+A 
+B B 
+C C C 
+D D D D 
+E E E E E 
 
 Test Case 3: For value 7
 
-1                         1 
-1 2                     2 1 
-1 2 3                 3 2 1 
-1 2 3 4             4 3 2 1 
-1 2 3 4 5         5 4 3 2 1 
-1 2 3 4 5 6     6 5 4 3 2 1 
-1 2 3 4 5 6 7 7 6 5 4 3 2 1 
+A 
+B B 
+C C C 
+D D D D 
+E E E E E 
+F F F F F F 
+G G G G G G G 
 

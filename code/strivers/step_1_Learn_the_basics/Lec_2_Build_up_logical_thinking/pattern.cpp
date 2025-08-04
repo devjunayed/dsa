@@ -165,27 +165,80 @@ void pattern11(int n)
 
 void pattern12(int n)
 {
-    int gap = (n*2)-2;
+    int gap = (n * 2) - 2;
     for (int i = 0; i < n; i++)
     {
-        for (int number = 1; i+1 >= number; number++)
+        for (int number = 1; i + 1 >= number; number++)
         {
             cout << number << " ";
         }
 
-        for (int j = 0;  j < gap; j++)
+        for (int j = 0; j < gap; j++)
         {
             cout << "  ";
         }
 
-        for (int number = i+1;  number > 0; number--)
+        for (int number = i + 1; number > 0; number--)
         {
             cout << number << " ";
         }
-        gap = gap-2;
+        gap = gap - 2;
         cout << endl;
     }
 }
+
+void pattern13(int n)
+{
+    int val = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 0; j < i; j++)
+        {
+            cout << val << " ";
+            val++;
+        }
+        cout << endl;
+    }
+}
+
+void pattern14(int n)
+{
+    
+    for (int i = 0; i < n; i++)
+    {
+        for (char ch = 'A'; ch <= 'A'+i; ch++)
+        {
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
+
+void pattern15(int n)
+{
+    
+    for (int i = 0; i < n; i++)
+    {
+        for (char ch = 'A' ; ch < 'A' +(n - i); ch++)
+        {
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
+
+
+void pattern16(int n){
+    char ch = 'A';
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < i+1 ; j++ ){
+            cout << ch << " ";
+        }
+        ch++;
+        cout << endl;
+    }
+}
+
 
 int main()
 {
@@ -203,6 +256,10 @@ int main()
     // test(t, pattern10);
     // test(t, pattern11);
     // test(t, pattern12);
+    // test(t, pattern13);
+    // test(t, pattern14);
+    // test(t, pattern15);
+    test(t, pattern16);
 
     return 0;
 }
