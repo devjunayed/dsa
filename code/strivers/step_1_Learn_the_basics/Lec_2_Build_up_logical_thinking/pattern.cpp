@@ -165,6 +165,7 @@ void pattern11(int n)
 
 void pattern12(int n)
 {
+    int gap = (n*2)-2;
     for (int i = 0; i < n; i++)
     {
         for (int number = 1; i+1 >= number; number++)
@@ -172,7 +173,7 @@ void pattern12(int n)
             cout << number << " ";
         }
 
-        for (int space = 0; space <= (n+2) - (i*2); space++)
+        for (int j = 0;  j < gap; j++)
         {
             cout << "  ";
         }
@@ -181,6 +182,7 @@ void pattern12(int n)
         {
             cout << number << " ";
         }
+        gap = gap-2;
         cout << endl;
     }
 }
@@ -197,7 +199,7 @@ int main()
     // test(t, pattern6);
     // test(t, pattern7);
     // test(t, pattern8);
-    test(t, pattern9);
+    // test(t, pattern9);
     // test(t, pattern10);
     // test(t, pattern11);
     // test(t, pattern12);

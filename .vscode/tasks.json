@@ -4,10 +4,29 @@
     {
       "label": "Compile and run",
       "type": "shell",
-      "command": "sh",
+      "command": "",
       "args": [
-        "-c",
-        "cp \"${file}\" executeCode.cpp && g++ executeCode.cpp -o executeCode && ./executeCode < input.txt | tee output.txt && rm executeCode && rm executeCode.cpp"
+        "cp",
+        "\"${file}\"",
+        "executeCode.cpp",
+        "&&",
+        "g++",
+        "executeCode.cpp",
+        "-o",
+        "executeCode",
+        "&&",
+        "./executeCode",
+        "<",
+        "input.txt",
+        "|",
+        "tee",
+        "output.txt",
+        "&&",
+        "rm",
+        "executeCode.exe",
+        "&&",
+        "rm",
+        "executeCode.cpp"
       ],
       "presentation": {
         "reveal": "silent"
