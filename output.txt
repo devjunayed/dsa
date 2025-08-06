@@ -1,23 +1,23 @@
 Test Case 1: For value 2
 
-A 
-B B 
+ A  
+ABA 
 
 Test Case 2: For value 5
 
-A 
-B B 
-C C C 
-D D D D 
-E E E E E 
+    A     
+   ABA    
+  ABCBA   
+ ABCDCBA  
+ABCDEDCBA 
 
 Test Case 3: For value 7
 
-A 
-B B 
-C C C 
-D D D D 
-E E E E E 
-F F F F F F 
-G G G G G G G 
+      A       
+     ABA      
+    ABCBA     
+   ABCDCBA    
+  ABCDEDCBA   
+ ABCDEFEDCBA  
+ABCDEFGFEDCBA 
 

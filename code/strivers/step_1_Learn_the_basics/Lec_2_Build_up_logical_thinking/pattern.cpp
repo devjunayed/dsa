@@ -239,7 +239,32 @@ void pattern16(int n){
     }
 }
 
+void pattern17(int n){
+        for(int i = 0; i < n; i++){
+            for(int space = 1; space < n-i; space++){
+                cout << " ";
+            }
+            char ch = 'A';
 
+
+
+            for(char j = 0; j <  (i*2) + 1; j++){
+                cout <<  ch  << " ";
+                
+                if((i*2+1)/2 >= j+1){
+                    ch++;
+                }else {
+                    ch--;
+                }
+            }
+
+            for(int space = 1; space < n-i; space++){
+                cout << " ";
+            }
+            cout  << endl;
+
+        }
+}
 int main()
 {
     int t;
@@ -259,7 +284,8 @@ int main()
     // test(t, pattern13);
     // test(t, pattern14);
     // test(t, pattern15);
-    test(t, pattern16);
+    // test(t, pattern16);
+    test(t, pattern17);
 
     return 0;
 }
